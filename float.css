@@ -1,0 +1,130 @@
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+    width: 100%;
+    height: 55px;
+    background-color: rgb(200, 140, 31);
+}
+.nav li {
+    display: inline-block;
+    float: right;
+    padding-left: 25px;
+    
+}
+.nav ul {
+    padding-top: 20px;
+    padding-right: 55px;
+}
+.nav a {
+    color: white;
+    font-weight: light;
+    text-decoration: none;
+    font-size: 13.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav p {
+    padding-left: 55px;
+    color: white;
+    font-weight: light;
+    text-decoration: none;
+    font-size: 13.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    Height: 500px;
+    width: 75%;
+    margin: 100px 200px;
+    padding-left: 100px;
+    
+}
+.one {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    Height: 420px;
+    width: 200px;
+    margin-left: 10px;
+    float: left;
+    display: inline-block;
+    border: 2px solid rgb(159, 122, 0);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.two {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    Height: 420px;
+    width: 200px;
+    margin-left: 10px;
+    float: left;
+    display: inline-block;
+    border: 2px solid rgb(159, 122, 0);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.three {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    Height: 420px;
+    width: 200px;
+    margin-left: 10px;
+    float: left;
+    display: inline-block;
+    border: 2px solid rgb(159, 122, 0);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.four {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    Height: 420px;
+    width: 200px;
+    margin-left: 10px;
+    float: left;
+    display: inline-block;
+    border: 2px solid rgb(159, 122, 0);
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.main {
+    background-color: rgb(249, 249, 221);
+    width: 100%;
+    height: 2000px;
+}
+h1 {
+    font-size: 24px;
+    padding: 25px 0 15px 15px;
+}
+p {
+    margin: 10px 10px 10px 20px;
+    font-size: 13px;
+}
+.button {
+    height: 15px;
+    background-color: rgb(230, 167, 48);
+    text-align: center;
+    margin: 25px 10px;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 0 5px 0;
+    font-size: 12px;
+}
+.logo {
+    font-size: 16px;
+    color: white;
+    font-weight: lighter;
+    margin:0 20px 20px 20px;
+    padding-left: 30px;
+}
